@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      News
+    </ion-title>
+    <ion-buttons slot="secondary">
+      <a appRelativeRouterLink="search">
+        <ion-button>
+          <ion-icon slot="icon-only" name="search"></ion-icon>
+        </ion-button>
+      </a>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <a
+    *ngFor="let _ of cards; let i = index"
+    appRelativeRouterLink="article/{{ i }}"
+  >
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Article #{{ i }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper
+        sed odio non dignissim. Suspendisse rutrum nisl lorem, nec faucibus nisi
+        finibus quis...
+      </ion-card-content>
+    </ion-card>
+  </a>
+</ion-content>
