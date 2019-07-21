@@ -6,7 +6,7 @@ import { LocationStrategy } from '@angular/common';
   selector: 'a[appRelativeRouterLink]',
 })
 export class RelativeRouterLinkDirective extends RouterLinkWithHref {
-  url: string;
+  readonly url: string;
 
   @Input()
   set appRelativeRouterLink(suffix: string) {
