@@ -8,7 +8,10 @@
 </ion-header>
 
 <ion-content>
-  <ion-searchbar (ionChange)="onChange()"></ion-searchbar>
+  <ion-searchbar
+    placeholder="Type anything..."
+    (ionChange)="onChange()"
+  ></ion-searchbar>
   <a
     *ngFor="let _ of cards; let i = index"
     appRelativeRouterLink="article/{{ i }}"
