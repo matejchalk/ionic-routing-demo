@@ -1,3 +1,4 @@
 {
-  "hello": "ahoj"
+    "Foo": "ahoj",
+    "hello": "ahoj"
 }
