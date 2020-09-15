@@ -1,5 +1,8 @@
 {
     "hello": "hello",
     "How are you?": "How are you?",
-    "Wazzup": "Wazzuuuuup"
+    "Wazzup": "Wazzuuuuup",
+    "foo": {
+      "bar": "baz"
+    }
 }
