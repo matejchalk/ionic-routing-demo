@@ -1,58 +1,15 @@
-[
-    {
-        "term": "hello",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
+{
+    "hello": "",
+    "How are you?": "",
+    "Wazzup": "",
+    "foo": {
+        "bar": ""
     },
-    {
-        "term": "How are you?",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
+    "context": {
+        "term": ""
     },
-    {
-        "term": "Wazzup",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "bar",
-        "definition": null,
-        "context": "\"foo\"",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "term",
-        "definition": null,
-        "context": "context",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "title",
-        "definition": "Horsedick",
-        "context": "\"home\"",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "description",
-        "definition": "lorem ipsum",
-        "context": "\"home\"",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
+    "home": {
+        "title": "Horsedick",
+        "description": "lorem ipsum"
     }
-]
+}
