@@ -1,5 +1,11 @@
 {
     "hello": "ahoj",
     "How are you?": "Jak se máš?",
-    "Wazzup": ""
+    "Wazzup": "",
+    "foo": {
+        "bar": ""
+    },
+    "context": {
+        "term": ""
+    }
 }
