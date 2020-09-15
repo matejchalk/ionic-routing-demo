@@ -3,6 +3,9 @@
     "How are you?": "How are you?",
     "Wazzup": "Wazzuuuuup",
     "foo": {
-      "bar": "baz"
+        "bar": ""
+    },
+    "context": {
+        "term": ""
     }
 }
